@@ -4,7 +4,7 @@ use ieee.std_logic_1164.all;
 
 entity decodificador is port(
     binario: in std_logic_vector(3 downto 0);
-    display: out std_logic_vector(6 downto 0);
+    display: out std_logic_vector(6 downto 0)
 );
 end decodificador;
 
